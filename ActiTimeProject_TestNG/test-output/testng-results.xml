@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[ --- Browser is launch --- ]]>
+    </line>
+    <line>
+      <![CDATA[ --- login to application  --- ]]>
+    </line>
+    <line>
+      <![CDATA[ --- Time Track  --- ]]>
+    </line>
+    <line>
+      <![CDATA[ --- login to application  --- ]]>
+    </line>
+    <line>
+      <![CDATA[ --- Task --- ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-03-16T19:07:31 IST" name="Default suite" finished-at="2022-03-16T19:07:48 IST" duration-ms="17011">
+    <groups>
+    </groups>
+    <test started-at="2022-03-16T19:07:31 IST" name="Default test" finished-at="2022-03-16T19:07:48 IST" duration-ms="17011">
+      <class name="TestClassPakage1.VerifyApplicationHeader">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestClassPakage1.VerifyApplicationHeader@c33b74f]" started-at="2022-03-16T19:07:31 IST" name="launchBrowser" finished-at="2022-03-16T19:07:37 IST" duration-ms="6298" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ --- Browser is launch --- ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestClassPakage1.VerifyApplicationHeader@c33b74f]" started-at="2022-03-16T19:07:37 IST" name="loginToApplication" finished-at="2022-03-16T19:07:41 IST" duration-ms="3972" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ --- login to application  --- ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyUserTimeTrackTab()[pri:1, instance:TestClassPakage1.VerifyApplicationHeader@c33b74f]" started-at="2022-03-16T19:07:41 IST" name="verifyUserTimeTrackTab" finished-at="2022-03-16T19:07:42 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ --- Time Track  --- ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserTimeTrackTab -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:TestClassPakage1.VerifyApplicationHeader@c33b74f]" started-at="2022-03-16T19:07:42 IST" name="logoutUser" finished-at="2022-03-16T19:07:42 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestClassPakage1.VerifyApplicationHeader@c33b74f]" started-at="2022-03-16T19:07:42 IST" name="loginToApplication" finished-at="2022-03-16T19:07:46 IST" duration-ms="3552" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ --- login to application  --- ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyUserTasks()[pri:2, instance:TestClassPakage1.VerifyApplicationHeader@c33b74f]" started-at="2022-03-16T19:07:46 IST" name="verifyUserTasks" finished-at="2022-03-16T19:07:47 IST" duration-ms="1235" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ --- Task --- ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserTasks -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:TestClassPakage1.VerifyApplicationHeader@c33b74f]" started-at="2022-03-16T19:07:47 IST" name="logoutUser" finished-at="2022-03-16T19:07:47 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClassPakage1.VerifyApplicationHeader@c33b74f]" started-at="2022-03-16T19:07:47 IST" name="closeBrowser" finished-at="2022-03-16T19:07:48 IST" duration-ms="889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestClassPakage1.VerifyApplicationHeader -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
