@@ -17,7 +17,9 @@ public class TestClass {
 		driver.get("http://localhost/login.do");
 		
 		LoginPage loginPage = new LoginPage(driver);
-		System.out.println("Hello");
+		
+		
+		System.out.println("new comment");
 		
 		loginPage.sendUserName();
 		loginPage.sendPassword();
